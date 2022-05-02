@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="1F855B9D-4877-A44C-49F0-D6219380A23C">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 00:54:28 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

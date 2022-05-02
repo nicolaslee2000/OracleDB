@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D06995F3-2F17-00FB-B270-E6BC8B2C3C6D" name="customer">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 01:20:00 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cid" id="F2CEF00F-AE21-21DE-B5CD-EE70A958E654">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 01:20:50 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="DD4792A1-46FF-CF81-1992-851D5245FE5C">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 01:21:32 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="12EF2000-D02D-7CFA-D99A-76DFDE548D1C">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 01:22:29 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C7EE691-CBB6-E393-CDFB-16B28AB70A00" referredColumn="4E5B208E-B5A7-A2A9-06AC-8369FD236048"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE81AF4C-D3DA-ADBF-6AD1-EB3DB1348DEA" name="customer_PK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 01:28:35 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2CEF00F-AE21-21DE-B5CD-EE70A958E654"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA22B328-DE08-D925-9C68-B19872E2482B" name="customer_card_FK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 01:22:55 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12EF2000-D02D-7CFA-D99A-76DFDE548D1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

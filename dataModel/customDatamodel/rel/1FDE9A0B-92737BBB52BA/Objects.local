@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="7AAFCA4D-A34D-F7B4-6F3A-317A09116627" name="card" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="1FDE9A0B-B774-833C-0AF2-92737BBB52BA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="D06995F3-2F17-00FB-B270-E6BC8B2C3C6D" name="customer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="1FDE9A0B-B774-833C-0AF2-92737BBB52BA" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="9C7EE691-CBB6-E393-CDFB-16B28AB70A00" name="customer_card_FK" seqName="seg_0" containerID="D06995F3-2F17-00FB-B270-E6BC8B2C3C6D" refContainerID="7AAFCA4D-A34D-F7B4-6F3A-317A09116627" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="1FDE9A0B-B774-833C-0AF2-92737BBB52BA" propertySourceId="7AAFCA4D-A34D-F7B4-6F3A-317A09116627" propertyTargetId="D06995F3-2F17-00FB-B270-E6BC8B2C3C6D"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

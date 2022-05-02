@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AAFCA4D-A34D-F7B4-6F3A-317A09116627" name="card">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 00:58:00 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4E5B208E-B5A7-A2A9-06AC-8369FD236048">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 00:59:24 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num" id="040ECB99-2139-B174-3E1E-0A6482C0D4A9">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 00:59:24 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="0E92029A-070C-72F7-0F24-AAF2CA326D1C">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 01:00:12 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48B0BDAE-AB43-EC3B-4C43-B5623D036464" name="card_PK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 00:59:24 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E5B208E-B5A7-A2A9-06AC-8369FD236048"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

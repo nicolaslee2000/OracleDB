@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="customDatamodel" id="090C410E-4834-09CF-5EB4-B0CEFB0CACAE" version="3.5">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-02 00:54:28 UTC</createdTime>
+<ownerDesignName>customDatamodel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>090C410E-4834-09CF-5EB4-B0CEFB0CACAE</designId>
+</OSDM_Design>
