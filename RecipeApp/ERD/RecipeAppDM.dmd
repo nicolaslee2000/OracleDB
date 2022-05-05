@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RecipeAppDM" id="E57F08F6-4EA3-1421-F8E1-5778BAC4D2C8" version="3.5">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-04 00:14:01 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E57F08F6-4EA3-1421-F8E1-5778BAC4D2C8</designId>
+</OSDM_Design>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="580E8C72-1B79-C195-83B4-BF98466F7A13" name="Users">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-04 08:03:54 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="62CF072D-2E13-9D85-ED8B-2A2D6FCF4E04">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-04 08:27:43 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_pwd" id="16DF20A5-9C1B-0790-E4F4-31F21B87B571">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-04 08:27:43 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="3958363E-551F-22EA-377B-EFBC9929A058">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-04 08:27:43 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salt" id="51343936-ECAD-EB50-8929-4A4E3014C35F">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-04 22:25:57 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="language" id="355B0FA6-946B-F65D-6830-500F0794F995">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 03:09:15 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86D96ECB-8548-2309-6191-D9CE3D86BAF8" name="Users_PK">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-04 08:27:43 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62CF072D-2E13-9D85-ED8B-2A2D6FCF4E04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B948E48-7EE8-2E82-FA43-B6001E710EA1" name="Users__UN">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-04 08:28:27 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3958363E-551F-22EA-377B-EFBC9929A058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="23406539-4208-C05D-5B9E-2C8A06B129B4" mainViewID="2519358B-F794-5627-C71F-465A14F4F2C9">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-04 00:14:01 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

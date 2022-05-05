@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D17D9F1-E667-055D-53CE-671F28005F87" name="Admins">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 00:30:37 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="admin_id" id="885EEDF3-F282-55BA-D354-028C8C6B6E62">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 00:31:57 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="admin_pwd" id="026D03C9-B218-454A-530E-EC0E313353F0">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 00:31:57 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salt" id="6B6E5BC0-1B25-3AFC-2039-7615AF27F315">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 00:31:57 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A890DC4-05E0-CF5F-74E6-B7CEE179B7B0" name="Admins_PK">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 00:31:57 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="885EEDF3-F282-55BA-D354-028C8C6B6E62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

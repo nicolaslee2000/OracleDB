@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC868ABB-CE32-C8B2-8D4E-E0C8039FB971" name="Units">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 02:20:29 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="unit_name" id="572BF5D4-5BA7-26E6-F743-BAF3906A3310">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 02:22:12 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="g_per_unit" id="5A1B85A2-F340-7A3B-EFE0-C2B31E541C18">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 02:22:12 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED1AFB1E-4534-765C-A046-E8DB3BAC0DA1" name="Units_PK">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 02:22:12 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="572BF5D4-5BA7-26E6-F743-BAF3906A3310"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

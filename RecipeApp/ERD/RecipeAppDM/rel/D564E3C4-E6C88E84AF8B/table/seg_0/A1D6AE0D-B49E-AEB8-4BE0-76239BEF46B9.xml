@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1D6AE0D-B49E-AEB8-4BE0-76239BEF46B9" name="Ingredients">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:21:22 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ingredient_id" id="09B51C9D-322B-EFB1-F397-D2A21333A5B4">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:22:30 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ingredient_name" id="CE72E8F5-20D4-1F6B-1853-1F947AD38072">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:27:18 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calories_per_g" id="9A5BE454-1BD7-EB03-79DA-36D6A971CE33">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:27:18 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gram_per_ingredient" id="177E71A9-860E-2F0A-1221-BFD43DECE492">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:35:04 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF0623AC-4DE9-941D-543D-C046836B605E" name="Ingredients_PK">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:23:07 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09B51C9D-322B-EFB1-F397-D2A21333A5B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

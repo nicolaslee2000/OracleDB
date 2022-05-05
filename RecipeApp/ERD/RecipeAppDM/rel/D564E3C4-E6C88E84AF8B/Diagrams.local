@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="4F66B2BE-53EE-99CE-E5A6-02666EF69F11" name="RecipeApp" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

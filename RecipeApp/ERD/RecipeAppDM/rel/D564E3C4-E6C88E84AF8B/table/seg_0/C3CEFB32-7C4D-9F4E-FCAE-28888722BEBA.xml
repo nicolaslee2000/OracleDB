@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3CEFB32-7C4D-9F4E-FCAE-28888722BEBA" name="Recipe_likes">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:49:16 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="recipe_id" id="482345A4-4AB1-7389-F7C8-DEC37241BACD">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:50:35 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7167FA0D-CCC8-6CBC-5C23-EA1F2BD9E902" referredColumn="47F2C282-DACC-24DD-DB94-9C2A33C87BD7"/>
+</associations>
+</Column>
+<Column name="user_id" id="BFB37AA6-9D00-7BF4-6F2B-9923FEC5C8DA">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:50:35 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="268F0376-5178-D571-B3F8-C7DACCEE261E" referredColumn="62CF072D-2E13-9D85-ED8B-2A2D6FCF4E04"/>
+</associations>
+</Column>
+<Column name="isLiked" id="471D1B7B-1B27-8CDF-B292-7116B9815B0F">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:50:35 UTC</createdTime>
+<comment>&quot;Y&quot; for true &quot;N&quot; for false</comment>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFCD942D-BF8B-F3FA-9ADE-45B911A2FFA7" name="Recipe_likes_PK">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:50:35 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="482345A4-4AB1-7389-F7C8-DEC37241BACD"/>
+<colUsage columnID="BFB37AA6-9D00-7BF4-6F2B-9923FEC5C8DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B2E1144-CC83-B820-A261-FB1A7256C88E" name="RL_R_FK">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:55:48 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="482345A4-4AB1-7389-F7C8-DEC37241BACD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A09C32AD-B8C5-D80C-04F5-A044CFDCDEF9" name="RL_U_FK">
+<createdBy>Nicolaslee</createdBy>
+<createdTime>2022-05-05 01:56:11 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFB37AA6-9D00-7BF4-6F2B-9923FEC5C8DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
