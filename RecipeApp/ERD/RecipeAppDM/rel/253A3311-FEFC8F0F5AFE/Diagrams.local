@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="main_view" objectID="37685D72-8E74-620D-AD83-1691D54BD030" name="recipe_admin_test" visible="false"/>
-   <object objectType="sub_view" objectID="EEAD0825-BB00-8D19-9FF8-023149A5B567" name="recipe_admin_test - SubView_1" visible="false"/>
    <object objectType="sub_view" objectID="0F1ADF30-7CD9-24EA-D376-DC6B6C3A2935" name="recipe_admin_test - SubView_2" visible="false"/>
+   <object objectType="main_view" objectID="37685D72-8E74-620D-AD83-1691D54BD030" name="recipe_admin_test" visible="false"/>
    <object objectType="sub_view" objectID="5D228D39-8887-17EF-820D-DA2D4717AC0D" name="recipe_admin_test - SubView_3" visible="false"/>
+   <object objectType="sub_view" objectID="EEAD0825-BB00-8D19-9FF8-023149A5B567" name="recipe_admin_test - SubView_1" visible="false"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>
