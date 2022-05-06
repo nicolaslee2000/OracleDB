@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E6CAB8C-6952-820C-232C-08DD6985A05C" name="Menu">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-04 05:04:30 UTC</createdTime>
+<ownerDesignName>0504</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="foodcode" id="52B6EB67-300B-8C4C-A842-01C6B718E185">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-04 05:05:38 UTC</createdTime>
+<ownerDesignName>0504</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foodname" id="843307A4-183B-339A-AE0F-1B7EB1AAFD8B">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-04 05:05:38 UTC</createdTime>
+<ownerDesignName>0504</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="492C4B7F-C1C6-313E-E404-4638E12AFF92">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-04 05:05:38 UTC</createdTime>
+<ownerDesignName>0504</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E58E94F-6641-80A2-6276-DE77F766B55C" name="Menu_PK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-04 05:05:38 UTC</createdTime>
+<ownerDesignName>0504</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52B6EB67-300B-8C4C-A842-01C6B718E185"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

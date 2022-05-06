@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5E4922F9-DFF9-33D0-6A23-6EFAB9B22D45" containerWithKeyObject="3EF66200-9CD1-FE70-CB96-6A2B2299DB3A" localFKIndex="5B008B28-FE99-B3B7-6E63-CCA14D837A32" name="payment_order_FK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-04 05:12:43 UTC</createdTime>
+<ownerDesignName>0504</ownerDesignName>
+<referredTableLongName>order</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1BEB0CE2-3D60-1C6C-785A-991487D98EBD</referredTableID>
+<keyObject>4E38E3CC-175B-B442-93CC-545046BEE22D</keyObject>
+<referredKeyID>4E38E3CC-175B-B442-93CC-545046BEE22D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sreialnumber,orderdate</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

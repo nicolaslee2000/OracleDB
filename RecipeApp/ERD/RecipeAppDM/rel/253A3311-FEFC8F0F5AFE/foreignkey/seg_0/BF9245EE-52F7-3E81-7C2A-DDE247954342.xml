@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF9245EE-52F7-3E81-7C2A-DDE247954342" containerWithKeyObject="E6755022-08FD-EBD7-3530-031B11C66FEB" localFKIndex="65D4CCCF-46F1-2B09-D5B7-FBB6287971AC" name="RC_R_FK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>208B078B-A910-ADCE-4691-EBA5A1B6EE6F</importedID>
+<referredTableLongName>RECIPE_ADMIN_TEST.RECIPES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>true</mandatory>
+<refColNames>RECIPE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

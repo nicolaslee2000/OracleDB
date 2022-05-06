@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CATEGORIES" directorySegmentName="seg_0" id="FA8E99C3-5BC4-6304-6362-D09B1807BF7C">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:37 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<nameChanged>true</nameChanged>
+<schemaObject>EE31DA68-EBF4-38A0-CFE7-D9425E38638F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6A5ADAFB-79C5-E6C3-14B3-A6E19B710E8F</segment>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CATEGORY_NAME" id="F778B8D2-41A6-3731-8129-45E709EE6BE1">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:37 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CATEGORIES_PKv1" id="3A5F46A4-034D-BF6C-93A1-95C6693115E8">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:37 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<schemaObject>EE31DA68-EBF4-38A0-CFE7-D9425E38638F</schemaObject>
+<segment>FD41A40B-CF6A-6741-207D-AF75A6B9F326</segment>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CATEGORIES_PKv1" id="803EE7F7-BE3C-C50B-6920-A58DB3FB6731">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:37 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CATEGORIES" directorySegmentName="seg_0" id="E7963E02-DEAC-07C5-AACD-7941A45C568F">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:04 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<schemaObject>EE31DA68-EBF4-38A0-CFE7-D9425E38638F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6A5ADAFB-79C5-E6C3-14B3-A6E19B710E8F</segment>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CATEGORY_NAME" id="02047EF8-AEE9-2ADA-07BD-EFADA1801EB5">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:04 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CATEGORIES_PK" id="72BE4003-A8B9-D36B-1E0C-2AA8946CCDC6">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:04 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<schemaObject>EE31DA68-EBF4-38A0-CFE7-D9425E38638F</schemaObject>
+<segment>FD41A40B-CF6A-6741-207D-AF75A6B9F326</segment>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CATEGORIES_PK" id="FF970992-A3F9-608B-7D03-112C3BC55189">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:04 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<segment>FD41A40B-CF6A-6741-207D-AF75A6B9F326</segment>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+<existingIndex>72BE4003-A8B9-D36B-1E0C-2AA8946CCDC6</existingIndex>
+<indexSegment>FD41A40B-CF6A-6741-207D-AF75A6B9F326</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

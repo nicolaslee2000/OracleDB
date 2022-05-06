@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA8E99C3-5BC4-6304-6362-D09B1807BF7C" schemaObject="EE31DA68-EBF4-38A0-CFE7-D9425E38638F" name="CATEGORIESv1">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>RECIPE_ADMIN_TEST</sourceObjSchema>
+<sourceObjName>CATEGORIES</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:37 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATEGORY_NAME" id="F778B8D2-41A6-3731-8129-45E709EE6BE1">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>CATEGORIESv1</sourceObjSchema>
+<sourceObjName>CATEGORY_NAME</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:37 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="803EE7F7-BE3C-C50B-6920-A58DB3FB6731" name="CATEGORIES_PKv1">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>RECIPE_ADMIN_TEST</sourceObjSchema>
+<sourceObjName>CATEGORIES_PKv1</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:37 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F778B8D2-41A6-3731-8129-45E709EE6BE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A5F46A4-034D-BF6C-93A1-95C6693115E8" schemaObject="EE31DA68-EBF4-38A0-CFE7-D9425E38638F" name="CATEGORIES_PKv1">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>RECIPE_ADMIN_TEST</sourceObjSchema>
+<sourceObjName>CATEGORIES_PK</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:37 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F778B8D2-41A6-3731-8129-45E709EE6BE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

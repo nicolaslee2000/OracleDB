@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="RECIPE_ADMIN_TEST" directorySegmentName="seg_0" id="EE31DA68-EBF4-38A0-CFE7-D9425E38638F">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:16 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>A48F47A5-2BB0-3078-4562-E0237CB15D4F</importedID>
+</SchemaObject>

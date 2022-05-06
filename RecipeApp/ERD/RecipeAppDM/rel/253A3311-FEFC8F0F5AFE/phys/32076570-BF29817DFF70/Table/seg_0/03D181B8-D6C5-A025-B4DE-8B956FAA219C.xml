@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMP" directorySegmentName="seg_0" id="03D181B8-D6C5-A025-B4DE-8B956FAA219C">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<schemaObject>EE31DA68-EBF4-38A0-CFE7-D9425E38638F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6A5ADAFB-79C5-E6C3-14B3-A6E19B710E8F</segment>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LAST_NAME" id="003059BF-7B4D-428F-6DB7-DC4DEFECF884">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="0CE10967-D08F-2B70-0092-E9A495EC3EA7">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYEE_ID" id="0E1611E6-2FB7-79EE-21D7-D03795964AB3">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANAGER_ID" id="0E3E6ADF-4B89-CC22-4E36-52C2F486CCF4">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_ID" id="1F5D1B59-D833-6118-1867-2E62C77260EF">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_ID" id="381D52E7-65A3-7521-7E31-5D01B1B80B68">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="498913DF-C58E-C6B5-E996-1671A552EE4A">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMISSION_PCT" id="59BB5119-51B8-AC61-EFC4-86FEC86AE473">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY" id="8BEA4D02-1D59-E6B5-1698-A4F858621C9B">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIRE_DATE" id="90462A3B-27D4-29AF-5A45-69A04241D4EA">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE_NUMBER" id="BEB691AA-9429-4D3A-A3E8-9A5CDEC8884C">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:14:21 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

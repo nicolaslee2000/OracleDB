@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="recipe_admin_test" id="253A3311-C5E5-C4B3-044E-FEFC8F0F5AFE" mainViewID="37685D72-8E74-620D-AD83-1691D54BD030">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:16 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>recipe_admin_test</connName>
+<connUser>RECIPE_ADMIN_TEST</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

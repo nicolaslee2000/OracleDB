@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="0504" id="4E7A0C16-FEFA-8D9A-39E7-F066800FDEB0" version="3.5">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-04 04:37:56 UTC</createdTime>
+<ownerDesignName>0504</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4E7A0C16-FEFA-8D9A-39E7-F066800FDEB0</designId>
+</OSDM_Design>

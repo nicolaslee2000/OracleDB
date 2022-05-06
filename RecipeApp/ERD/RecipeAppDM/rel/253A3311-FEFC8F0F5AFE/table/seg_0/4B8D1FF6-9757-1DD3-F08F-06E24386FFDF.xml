@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B8D1FF6-9757-1DD3-F08F-06E24386FFDF" schemaObject="EE31DA68-EBF4-38A0-CFE7-D9425E38638F" name="ADMINS">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:16 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>3EDB4590-8277-CEF9-FBB9-E7FD686BFECF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADMIN_ID" id="EB8EC9F1-B5B5-A91E-F3F5-0E1D549B6BEA">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:16 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>477EB485-066E-19CD-AA79-2AE60EBF71D1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADMIN_PWD" id="0CBCF35E-63E1-EEBF-E7A6-9336A0E592C7">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:16 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>0B0A7106-64F1-BE4C-BA40-3AA3EDF18316</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALT" id="A2A278C8-CB52-877F-CBE7-EA83661A9DE6">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:16 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>B57A8234-DF28-785F-95BB-407BF86C9DB1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="833C3D41-F090-6E5A-B846-A7F15D3E7393" name="ADMINS_PK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:16 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>F52DC4C2-FEB1-7368-87F2-98F28D9ED6A5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB8EC9F1-B5B5-A91E-F3F5-0E1D549B6BEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF0FA8E4-7C5C-9AB8-39A8-9B8C777A7157" schemaObject="EE31DA68-EBF4-38A0-CFE7-D9425E38638F" name="ADMINS_PK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:16 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>39DAAEA7-B570-E761-E5F7-FE9596909989</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB8EC9F1-B5B5-A91E-F3F5-0E1D549B6BEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

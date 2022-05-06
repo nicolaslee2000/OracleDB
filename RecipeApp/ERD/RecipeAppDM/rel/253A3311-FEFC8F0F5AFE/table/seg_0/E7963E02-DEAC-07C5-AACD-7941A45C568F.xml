@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7963E02-DEAC-07C5-AACD-7941A45C568F" schemaObject="EE31DA68-EBF4-38A0-CFE7-D9425E38638F" name="CATEGORIES">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>9FB376DD-151B-CFF6-7372-BD283278AB67</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATEGORY_NAME" id="02047EF8-AEE9-2ADA-07BD-EFADA1801EB5">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>4675C3D2-F641-561E-FA77-0AEB72D4560F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF970992-A3F9-608B-7D03-112C3BC55189" name="CATEGORIES_PK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>A0B08825-E622-9710-5D74-B81C10290599</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02047EF8-AEE9-2ADA-07BD-EFADA1801EB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72BE4003-A8B9-D36B-1E0C-2AA8946CCDC6" schemaObject="EE31DA68-EBF4-38A0-CFE7-D9425E38638F" name="CATEGORIES_PK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>1539A964-328C-5E21-BC6A-9A80AB515478</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02047EF8-AEE9-2ADA-07BD-EFADA1801EB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

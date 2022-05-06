@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6755022-08FD-EBD7-3530-031B11C66FEB" schemaObject="EE31DA68-EBF4-38A0-CFE7-D9425E38638F" name="RECIPE_CATEGORIES">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>937EBC65-FF47-461E-EEE2-6093D0605504</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RECIPE_ID" id="85D74BC3-9C4C-C13A-A6FF-CFF7D1A1CD83">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>62AEE7C3-5BB2-CD5A-E0CD-ED96DE20355C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY_NAME" id="3A62C16B-B987-C2AF-836D-3DA2A6895305">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>E528047A-9FD6-78FB-208C-AA75125A47E1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C4AFBA5-2EB6-1B37-4A27-0C879BADE985" referredColumn="02047EF8-AEE9-2ADA-07BD-EFADA1801EB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="832C0FEE-025E-6E42-B5DD-D035B22B7A0A" name="RECIPE_CATEGORIES_PK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>F73BAF88-E76F-4DFC-03D6-F9676F410F11</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85D74BC3-9C4C-C13A-A6FF-CFF7D1A1CD83"/>
+<colUsage columnID="3A62C16B-B987-C2AF-836D-3DA2A6895305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="708F7D45-EDB5-8760-663C-EE54DBC28A14" schemaObject="EE31DA68-EBF4-38A0-CFE7-D9425E38638F" name="RECIPE_CATEGORIES_PK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<importedID>BC65D140-151F-3953-A609-47DD18DF6700</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85D74BC3-9C4C-C13A-A6FF-CFF7D1A1CD83"/>
+<colUsage columnID="3A62C16B-B987-C2AF-836D-3DA2A6895305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A88442BF-2806-CBE4-73B3-4F931C8B8178" name="RC_C_FK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A62C16B-B987-C2AF-836D-3DA2A6895305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65D4CCCF-46F1-2B09-D5B7-FBB6287971AC" name="RC_R_FK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:34 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85D74BC3-9C4C-C13A-A6FF-CFF7D1A1CD83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

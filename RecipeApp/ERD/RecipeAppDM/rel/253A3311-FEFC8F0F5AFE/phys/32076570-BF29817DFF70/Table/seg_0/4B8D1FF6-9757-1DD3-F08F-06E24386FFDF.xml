@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ADMINS" directorySegmentName="seg_0" id="4B8D1FF6-9757-1DD3-F08F-06E24386FFDF">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:13 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<schemaObject>EE31DA68-EBF4-38A0-CFE7-D9425E38638F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6A5ADAFB-79C5-E6C3-14B3-A6E19B710E8F</segment>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ADMIN_PWD" id="0CBCF35E-63E1-EEBF-E7A6-9336A0E592C7">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:13 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALT" id="A2A278C8-CB52-877F-CBE7-EA83661A9DE6">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:13 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADMIN_ID" id="EB8EC9F1-B5B5-A91E-F3F5-0E1D549B6BEA">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:13 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ADMINS_PK" id="CF0FA8E4-7C5C-9AB8-39A8-9B8C777A7157">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:14 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<schemaObject>EE31DA68-EBF4-38A0-CFE7-D9425E38638F</schemaObject>
+<segment>FD41A40B-CF6A-6741-207D-AF75A6B9F326</segment>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000020725C00002$$" id="3434368B-A43B-50D8-A8F3-F9D8878B8664">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:14 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>ADMIN_PWD</column>
+<logging>YES</logging>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ADMINS_PK" id="833C3D41-F090-6E5A-B846-A7F15D3E7393">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:13:14 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<segment>FD41A40B-CF6A-6741-207D-AF75A6B9F326</segment>
+<tableSpace>4B275540-3CBD-9F0B-60AF-8EB2DBE241BE</tableSpace>
+<existingIndex>CF0FA8E4-7C5C-9AB8-39A8-9B8C777A7157</existingIndex>
+<indexSegment>FD41A40B-CF6A-6741-207D-AF75A6B9F326</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

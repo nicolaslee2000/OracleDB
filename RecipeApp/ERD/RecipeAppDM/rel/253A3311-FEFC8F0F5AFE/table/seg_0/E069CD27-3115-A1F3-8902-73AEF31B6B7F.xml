@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E069CD27-3115-A1F3-8902-73AEF31B6B7F" schemaObject="EE31DA68-EBF4-38A0-CFE7-D9425E38638F" name="EMPv1">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>RECIPE_ADMIN_TEST</sourceObjSchema>
+<sourceObjName>EMP</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="13D2A13A-B86A-D827-F17A-7B2F0D6BB459">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="BB3F4012-EEAF-5B8D-4EC8-47419429545D">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="8843DA97-EEBF-04A1-D889-802DE8BE077A">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="6F49255A-BE57-CCA8-93AB-22605F453D7E">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_NUMBER" id="E0207ABF-3642-A01B-63DC-2A71DF584D30">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>PHONE_NUMBER</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIRE_DATE" id="7BAA008C-0A0F-1BE4-7F42-8A5E98C0887E">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>HIRE_DATE</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB_ID" id="5173FAC3-0388-4832-4739-372ED9A61DB0">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>JOB_ID</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY" id="5E2B6D77-08A7-E6CB-C9E5-645F4695E6C1">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMISSION_PCT" id="10910D06-124D-4D65-54BB-C617CCD0B209">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>COMMISSION_PCT</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_ID" id="3945F57A-EA10-ADDC-D6A9-A6A4679A1404">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>MANAGER_ID</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_ID" id="461CE051-7479-51A0-3694-F77C3D4EABA5">
+<sourceConnName>recipe_admin_test</sourceConnName>
+<sourceObjSchema>EMPv1</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-06 01:16:41 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

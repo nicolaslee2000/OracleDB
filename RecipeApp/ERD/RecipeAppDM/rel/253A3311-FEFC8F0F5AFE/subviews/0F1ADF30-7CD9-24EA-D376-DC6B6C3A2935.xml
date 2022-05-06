@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="recipe_admin_test - SubView_2" id="0F1ADF30-7CD9-24EA-D376-DC6B6C3A2935">
+<createdBy>EZEN</createdBy>
+<modifiedBy>EZEN</modifiedBy>
+<createdTime>2022-05-06 01:13:16 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="4B8D1FF6-9757-1DD3-F08F-06E24386FFDF" otype="Table" vid="17E88201-35DB-8CCE-50FA-BBCEBA9761CD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="228" height="114"/>
+</OView>
+</objectViews>
+</Diagram>
