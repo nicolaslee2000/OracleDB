@@ -8,17 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ingredient_id" id="09B51C9D-322B-EFB1-F397-D2A21333A5B4">
-<createdBy>Nicolaslee</createdBy>
-<createdTime>2022-05-05 01:22:30 UTC</createdTime>
-<ownerDesignName>RecipeAppDM</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="ingredient_name" id="CE72E8F5-20D4-1F6B-1853-1F947AD38072">
 <createdBy>Nicolaslee</createdBy>
 <createdTime>2022-05-05 01:27:18 UTC</createdTime>
@@ -34,7 +23,6 @@
 <createdBy>Nicolaslee</createdBy>
 <createdTime>2022-05-05 01:27:18 UTC</createdTime>
 <ownerDesignName>RecipeAppDM</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -62,7 +50,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="09B51C9D-322B-EFB1-F397-D2A21333A5B4"/>
+<colUsage columnID="CE72E8F5-20D4-1F6B-1853-1F947AD38072"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

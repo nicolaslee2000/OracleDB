@@ -21,17 +21,18 @@
 <colAssociation fkAssociation="4BD35215-6C54-F1E8-5DB9-1A6770E1FB40" referredColumn="47F2C282-DACC-24DD-DB94-9C2A33C87BD7"/>
 </associations>
 </Column>
-<Column name="ingredient_id" id="093BCBCD-D312-CA88-C7C1-8A2BE569C115">
-<createdBy>Nicolaslee</createdBy>
-<createdTime>2022-05-05 01:30:30 UTC</createdTime>
+<Column name="ingredient_name" id="82D7A98B-3E27-18EF-625C-EBC752F5BE64">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-11 00:37:57 UTC</createdTime>
 <ownerDesignName>RecipeAppDM</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CBF8F082-4415-B236-7E80-905236C13B17" referredColumn="09B51C9D-322B-EFB1-F397-D2A21333A5B4"/>
+<colAssociation fkAssociation="23E0CA0D-FAD9-3EF7-F591-6BB8AC2CCD78" referredColumn="CE72E8F5-20D4-1F6B-1853-1F947AD38072"/>
 </associations>
 </Column>
 <Column name="amount" id="282B24E4-D6CC-83A9-2B03-AF647EDEAF6E">
@@ -52,22 +53,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="63F7C410-A916-9201-9683-77D51996CF74" referredColumn="572BF5D4-5BA7-26E6-F743-BAF3906A3310"/>
 </associations>
-</Column>
-<Column name="ingredient_total_calories" id="8D3EC385-9385-D15A-D2EF-FECFEC64EEA4">
-<createdBy>Nicolaslee</createdBy>
-<createdTime>2022-05-05 01:33:41 UTC</createdTime>
-<ownerDesignName>RecipeAppDM</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -80,10 +70,10 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1700C324-4126-20FA-11F4-C13B6A92D7F9"/>
-<colUsage columnID="093BCBCD-D312-CA88-C7C1-8A2BE569C115"/>
+<colUsage columnID="82D7A98B-3E27-18EF-625C-EBC752F5BE64"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4E233864-703F-0E93-4F07-44EA30E6E105" name="RI_R_FK">
+<ind_PK_UK id="4E233864-703F-0E93-4F07-44EA30E6E105" name="RI_I_FKv1">
 <createdBy>Nicolaslee</createdBy>
 <createdTime>2022-05-05 01:40:11 UTC</createdTime>
 <ownerDesignName>RecipeAppDM</ownerDesignName>
@@ -91,16 +81,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1700C324-4126-20FA-11F4-C13B6A92D7F9"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="6A94E31A-EEED-AEA2-93DE-7BF4D37082E4" name="RI_I_FK">
-<createdBy>Nicolaslee</createdBy>
-<createdTime>2022-05-05 01:40:26 UTC</createdTime>
-<ownerDesignName>RecipeAppDM</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="093BCBCD-D312-CA88-C7C1-8A2BE569C115"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="2ACF1FF7-65DB-9811-F6F1-9CF8F4629C64" name="RI_U_FK">
@@ -111,6 +91,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6AEBF627-CA33-0C71-F48C-9B542525C3BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="178EEF8D-51B2-48FA-0471-10B2A0F8C8FB" name="RI_I_FK">
+<createdBy>EZEN</createdBy>
+<createdTime>2022-05-11 00:38:04 UTC</createdTime>
+<ownerDesignName>RecipeAppDM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82D7A98B-3E27-18EF-625C-EBC752F5BE64"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

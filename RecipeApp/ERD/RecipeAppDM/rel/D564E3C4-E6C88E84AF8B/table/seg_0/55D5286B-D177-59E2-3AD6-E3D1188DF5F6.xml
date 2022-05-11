@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="8D66B8A9-5DAE-A5DA-DD1B-3D6BDD3E2492" referredColumn="62CF072D-2E13-9D85-ED8B-2A2D6FCF4E04"/>

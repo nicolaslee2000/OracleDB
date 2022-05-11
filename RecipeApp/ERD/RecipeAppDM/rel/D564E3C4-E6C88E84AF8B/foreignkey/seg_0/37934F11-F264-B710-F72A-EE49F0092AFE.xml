@@ -4,7 +4,7 @@
 <createdTime>2022-05-05 02:27:09 UTC</createdTime>
 <ownerDesignName>RecipeAppDM</ownerDesignName>
 <referredTableLongName>Users</referredTableLongName>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 <referredTableID>580E8C72-1B79-C195-83B4-BF98466F7A13</referredTableID>
 <keyObject>86D96ECB-8548-2309-6191-D9CE3D86BAF8</keyObject>
 <referredKeyID>86D96ECB-8548-2309-6191-D9CE3D86BAF8</referredKeyID>

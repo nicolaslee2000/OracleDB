@@ -30,22 +30,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="37831120-D18A-EA83-1D23-347EF068B9F9" referredColumn="62CF072D-2E13-9D85-ED8B-2A2D6FCF4E04"/>
 </associations>
-</Column>
-<Column name="isBookmarked" id="3E30FCA2-8DAB-DD49-A64C-4DF3316895A3">
-<createdBy>Nicolaslee</createdBy>
-<createdTime>2022-05-05 02:03:09 UTC</createdTime>
-<ownerDesignName>RecipeAppDM</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
